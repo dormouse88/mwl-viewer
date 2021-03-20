@@ -25,7 +25,7 @@ function fetchJSONs(){
 
 function make_mwl_selector()
 {
-    var writeThis = '<select name="MWL Selector" onchange="show_chosen_mwl(this.value)"> <option value="none"></option>';
+    var writeThis = '<select name="MWL Selector" onchange="show_chosen_mwl(this.value)"> <option selected disabled value="none"></option>';
     for (const mwl in merged.data) {
         writeThis += '<option value="' + mwl + '">' + merged.data[mwl].name + '</option>';
     }
