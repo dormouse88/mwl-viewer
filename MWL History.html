@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ANR MWL + Banlist History</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="mwl.js"></script>
+</head>
+<body onload="fetchJSONs()">
+    <div id="mwl_selector">MWLs Loading...</div>
+    <div id="chosen_mwl">Select a MWL from the dropdown above</div>
+    <div id="debug">...</div>
+    <div id="inf_red" class="guidance">
+    <h5>Influence Reduction System</h5>
+<p>Each copy of a card from this list reduces an Identity’s influence limit by 1 when included in a deck.</p>
+<p>An Identity’s printed influence limit cannot be reduced below 1.</p>
+<p>This reduction occurs even if the card matches the Identity’s faction.</p>
+<p>Sources: <a href="https://www.fantasyflightgames.com/en/news/2015/12/31/napd-security-upgrades" target="_blank">Article</a> and <a href="https://images-cdn.fantasyflightgames.com/filer_public/de/bb/debb8a85-d0db-40d7-8b62-be12260f2fa7/adn_tournament_rules_v302.pdf" target="_blank">PDF</a>.</p>
+    </div>
+    <div id="uni_inf" class="guidance">
+    <h5>Universal Influence System</h5>
+<p>Each copy of a card on this list has universal influence equal to its level.</p>
+<p>Universal Influence is separate from printed influence, not a replacement.</p>
+<p>Universal Influence always counts against an identity's influence limit, even if the card matches the identity's faction.</p>
+<p>Sources: <a href="https://www.fantasyflightgames.com/en/news/2017/4/12/enhanced-enforcement-tactics/" target="_blank">Article</a> and <a href="https://images-cdn.fantasyflightgames.com/filer_public/fa/84/fa84c620-cd7e-4c6c-96bd-c703419fca5e/adn_mwl_v12_web.pdf" target="_blank">PDF</a>. Also, <a href="https://old.reddit.com/r/Netrunner/comments/6d1vgm/is_there_an_official_ruling_regarding_the/" target="_blank">further information</a>.</p>
+    </div>
+    <div id="ban_and_res" class="guidance">
+    <h5>Banned and Restricted System</h5>
+<p>You may include one restricted card (up to its maximum number of copies) in your deck.</p>
+<p>You may not include banned cards (also sometimes called 'Removed' cards) in your deck.</p>
+<p>Sources: <a href="https://www.fantasyflightgames.com/en/news/2017/9/27/arrest-warrants-issued/" target="_blank">Article</a> and <a href="https://images-cdn.fantasyflightgames.com/filer_public/32/41/3241fdfd-014f-482f-b01d-b6f102584d7b/adn_mwl_v20.pdf" target="_blank">PDF</a>.</p>
+    </div>
+    <div id="ban" class="guidance">
+    <h5>Ban System</h5>
+<p>You may not include banned cards in your deck.</p>
+<p>Source: <a href="https://nisei.net/blog/ban2006/" target="_blank">Article</a>.</p>
+    </div>
+</body>
+</html>

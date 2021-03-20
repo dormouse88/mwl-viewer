@@ -10,3 +10,19 @@ h4 {
 #chosen_mwl > p {
     padding-left:35px;
 }
+#debug {
+    visibility:hidden;
+}
+hr {
+    margin-top:70px;
+}
+div.guidance {
+    display:none;
+    padding:20px;
+    margin:15px;
+    border:1px solid black;
+}
+select {
+    margin:5px;
+    padding:10px;
+}
